@@ -6,6 +6,8 @@ import { About } from "./pages/About"
 import { Courses } from "./pages/Courses"
 import { Blog } from "./pages/Blog"
 import { Instructor } from "./pages/Instructor"
+import LoginPage from "./pages/Login"
+import CourseDetails from "./pages/CourseDetails"
 
 function App() {
   return (
@@ -57,6 +59,22 @@ function App() {
             element={
               <Layout>
                 <BlogSinglePage />
+              </Layout>
+            }
+          />
+          <Route
+            path='/login'
+            element={
+              <Layout>
+                <LoginPage />
+              </Layout>
+            }
+          />
+        <Route
+            path='/courses/:id'
+            element={
+              <Layout>
+                <CourseDetails />
               </Layout>
             }
           />

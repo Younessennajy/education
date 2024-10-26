@@ -10,10 +10,10 @@ export const Blog = () => {
         <div className='w-4/5 m-auto'>
           <div className='heading text-center py-12'>
             <h1 className='text-3xl font-semibold text-black'>
-              We Share <br />
-              Our Thoughts On Design
+            Nous partageons <br />
+            Nos réflexions sur le design
             </h1>
-            <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
+            <span className='text-sm mt-2 block'>vous n'êtes pas obligé de lutter seul, vous avez notre aide et notre aide.</span>
           </div>
           <div className='grid grid-cols-3 gap-5 md:grid-cols-1'>
             {courses.slice(0, 3).map((item) => (

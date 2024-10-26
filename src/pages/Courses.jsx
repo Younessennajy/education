@@ -12,26 +12,26 @@ export const Courses = () => {
         <div className='w-4/5 m-auto'>
           <div className='heading mb-16'>
             <h1 className='text-3xl font-semibold text-black'>
-              Find The Right <br />
-              Online Course For You
+              Trouvez Le Bon <br />
+              Cours En Ligne Pour Vous
             </h1>
-            <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
+            <span className='text-sm mt-2 block'>Vous n'avez pas à lutter seul, vous avez notre assistance et notre aide.</span>
           </div>
           <div className='grid grid-cols-3 gap-8 md:grid-cols-1'>
             {courses.map((item) => (
               <div className='box rounded-lg shadow-shadow1 bg-white'>
-                <div className='images rounded-t-lg relative overflow-hidden h-40 w-ful'>
+                <div className='images rounded-t-lg relative overflow-hidden h-40 w-full'>
                   <img src={item.cover} alt='' className='rounded-t-lg object-cover w-full h-full transition ease-in-out delay-150 cursor-pointer hover:scale-125 duration-300' />
                   <div className='categ flex gap-4 absolute top-0 m-3'>
                     <span className='text-[14px] bg-blue-700 p-1 px-3 text-white rounded-[5px] shadow-md'>Finance</span>
-                    <span className='text-[14px] bg-pink-700 p-1 px-3 text-white rounded-[5px] shadow-md'>Lifestyle</span>
+                    <span className='text-[14px] bg-pink-700 p-1 px-3 text-white rounded-[5px] shadow-md'>Style de vie</span>
                   </div>
                 </div>
                 <div className='text p-3'>
                   <div className='flex justify-between items-center'>
                     <div className='flex items-center'>
                       <FaBook />
-                      <span className='text-[14px] ml-2'> 10 lessons</span>
+                      <span className='text-[14px] ml-2'> 10 cours</span>
                     </div>
                     <div className='flex items-center'>
                       <AiFillStar className='text-orange-500' />
@@ -45,9 +45,9 @@ export const Courses = () => {
                   </div>
                 </div>
                 <div to='/' className='flex items-center justify-between border-t border-gray-200 p-3'>
-                  <span className='text-sm text-primary'>Free</span>
-                  <NavLink className='text-[14px] ml-2 flex items-center'>
-                    Know Details <HiOutlineArrowNarrowRight />
+                  <span className='text-sm text-primary'>Gratuit</span>
+                  <NavLink to={`/courses/${item.id}`} className='text-[14px] ml-2 flex items-center'>
+                    Voir Détails <HiOutlineArrowNarrowRight />
                   </NavLink>
                 </div>
               </div>

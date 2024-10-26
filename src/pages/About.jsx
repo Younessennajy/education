@@ -11,8 +11,9 @@ export const About = () => {
       <section className='about py-16'>
         <div className='container'>
           <div className='heading text-center py-12'>
-            <h1 className='text-3xl font-semibold text-black'>Why An Scholercity Out Of The Ordinary</h1>
-            <span className='text-sm mt-2 block'>you don't have to struggle alone, you've got our assistance and help.</span>
+          <h1 className='text-3xl font-semibold text-black'>Pourquoi choisir notre scolarité ?</h1>
+<span className='text-sm mt-2 block'>Vous n'avez pas à lutter seul, vous avez notre assistance et notre aide.</span>
+
           </div>
           <div className='grid grid-cols-4 gap-5 mt-5 md:grid-cols-2'>
             <AboutCard color='bg-[#2D69F0]' icon={<FaBookDead size={50} />} title='4,000 Online courses' desc="You don't have to struggle alone, you've " />
@@ -48,25 +49,26 @@ export const AboutContent = () => {
           <div className='img-group ml-24 mt-3'>
             <img src={imgs} alt='' />
             <span className='text-[14px]'>
-              Join over <label className='text-black text-sm'>4,000+</label> students
+            Rejoignez plus de <label className='text-black text-sm'>4 000+</label> étudiants
             </span>
           </div>
         </div>
         <div className='right w-2/3 md:w-full md:mt-16'>
           <div className='heading w-4/5 md:w-full'>
-            <h1 className='text-3xl font-semibold text-black'>Achieve Your Goals With Educal</h1>
-            <span className='text-sm mt-2 block leading-6'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam officia, reiciendis sapiente adipisci nulla non consequuntur eos repellendus laborum veritatis obcaecati neque est id porro voluptatum. Fuga iure nulla cum. Lost the plot bobby such a fibber bleeding bits and bobs don't get shirty with me bugger all mate chinwag super pukka william barney, horse play buggered.</span>
+          <h1 className='text-3xl font-semibold text-black'>Atteignez Vos Objectifs avec Educal</h1>
+            <span className='text-sm mt-2 block leading-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officia, reiciendis sapiente adipisci nulla non consequuntur eos repellendus laborum veritatis obcaecati neque est id porro voluptatum. Fuga iure nulla cum. Complètement décalé, quel baratineur avec ses histoires, du bidouillage à gogo, pas de quoi s’énerver, il n'y a rien à redire, un bon brin de causette, super classe, comme l'autre William et Barney, chahut garanti, sacrément embrouillé.</span>
             <ul className='my-5'>
               <li className='text-sm flex items-center gap-5'>
-                <AiOutlineCheck className='text-green-500' /> Upskill your organization.
+                <AiOutlineCheck className='text-green-500' /> Améliorez les compétences de votre organisation.
               </li>
+
               <li className='text-sm flex items-center gap-5 my-2'>
                 <AiOutlineCheck className='text-green-500' />
-                Access more then 100K online courses
+                Accédez à plus de 100 000 cours en ligne
               </li>
               <li className='text-sm flex items-center gap-5'>
                 <AiOutlineCheck className='text-green-500' />
-                Learn the latest skills
+                Apprenez les compétences les plus récentes
               </li>
             </ul>
             <button className='px-5 py-2 border border-gray-300 rounded-md text-sm'>Apply Now</button>
